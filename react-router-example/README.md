@@ -3,9 +3,10 @@
 React-Router-Dom을 이용해 라우팅 하는 방법을 배워보자. <br/>
 React-Router-Dom v6.0.1 에서는 이전 버전에서 변경된 부분이 있으므로 강의와 다르게 새로운 버전으로 진행한다. <br/>
 
+<br/>
 
-### router
-1. `기존 방법`
+## router
+### 1. 기존 방법
 
 ```
 import { BrowserRouter, Route } from 'react-router-dom';
@@ -25,7 +26,7 @@ function App(){
 }
 ```
 
-2. `변경된 방법`
+### 2. 변경된 방법
 - Route 를 Routes 감싸야함
 - route 의 매개변수인 component가 element 로 변경됨
 ```
@@ -48,8 +49,10 @@ function App(){
 }
 ```
 
-### route 에서 지정한 `/:id` 값이나 `prameter`값을 component에서 가져올때
-1. `기존 방법`
+<br/>
+
+## route 에서 지정한 `/:id` 값이나 `prameter`값을 component에서 가져올때
+### 1. 기존 방법
 ```
 /* :id 값 가져오기 - Profile.tsx */
 import React from "react";
@@ -82,7 +85,7 @@ export default function Profile(props) {
 }
 ```
 
-2. `변경된 방법`
+### 2. 변경된 방법
 ```
 /* :id 값 가져오기 - Profile.tsx */
 import React from "react";
