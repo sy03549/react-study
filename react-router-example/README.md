@@ -8,7 +8,7 @@
 ## router
 ### 1. 기존 방법
 
-```
+```javascript
 import { BrowserRouter, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Profile from "./pages/Profile";
@@ -29,7 +29,7 @@ function App(){
 ### 2. 변경된 방법
 - Route 를 Routes 감싸야함
 - route 의 매개변수인 component가 element 로 변경됨
-```
+```javascript
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Profile from "./pages/Profile";
@@ -53,7 +53,7 @@ function App(){
 
 ## route 에서 지정한 `/:id` 값이나 `prameter`값을 component에서 가져올때
 ### 1. 기존 방법
-```
+```javascript
 /* :id 값 가져오기 - Profile.tsx */
 import React from "react";
 
@@ -86,7 +86,7 @@ export default function Profile(props) {
 ```
 
 ### 2. 변경된 방법
-```
+```javascript
 /* :id 값 가져오기 - Profile.tsx */
 import React from "react";
 import { useParams } from "react-router-dom";
