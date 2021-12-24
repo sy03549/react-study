@@ -1,4 +1,4 @@
-# react
+# react-study
 with fastcampus
 
 - 패스트 캠퍼스 강의를 들으며 공부한 내용들을 업데이트 한다.
