@@ -1,10 +1,8 @@
 # Dynamic 라우팅
 
-React-Router-Dom을 이용해 라우팅 하는 방법을 배워보자.
+React-Router-Dom을 이용해 라우팅 하는 방법을 배워보자. <br/>
+React-Router-Dom v6.0.1 에서는 이전 버전에서 변경된 부분이 있으므로 강의와 다르게 새로운 버전으로 진행한다. <br/>
 
-
-## React-Router-Dom v6.0.1 
-React-Router-Dom 에서는 route 하는 방식이 변경됨.
 
 ### router
 1. `기존 방법`
